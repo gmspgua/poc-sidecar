@@ -1,0 +1,23 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: sidecar-proxy-example
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sidecar-proxy-example
+  template:
+    metadata:
+      labels:
+        app: sidecar-proxy-example
+    spec:
+      containers:
+      - name: sidecar-proxy
+        image: 130593/nginx-proxy:v3
+        ports:
+        - containerPort: 80
+      - name: application
+        image: 130593/helloworld-http:latest

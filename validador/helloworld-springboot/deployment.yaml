@@ -1,0 +1,16 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: validate-token-deployment
+spec:
+  template:
+    metadata:
+      labels:
+       name: validate-token-pod
+    spec:
+      containers:
+        - name: validate-token
+          image: 130593/validate-token:v1
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
