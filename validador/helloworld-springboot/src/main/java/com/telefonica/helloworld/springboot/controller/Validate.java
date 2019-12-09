@@ -22,4 +22,12 @@ public class Validate {
 		}
 		return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Forbidden");		
 	}
+	
+	@GetMapping(value = "/cpf")
+	public ResponseEntity<?> validateByCpf(@RequestParam("cpf") String cpf) {
+		if(cpf.equals("07508481976")) {
+			return ResponseEntity.ok().body("Cpf valido");
+		}
+		return ResponseEntity.status(HttpStatus.FORBIDDEN).body("Forbidden");		
+	}
 }

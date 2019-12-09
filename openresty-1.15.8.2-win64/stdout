@@ -1,0 +1,304 @@
+2019/12/07 23:38:36 [error] 1048#9988: *3 localhost could not be resolved (3: Host not found), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", subrequest: "/_validate_by_apikey", host: "localhost:8070"
+2019/12/07 23:38:36 [error] 1048#9988: *3 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://localhost:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:39:19 [error] 1048#9988: *4 localhost could not be resolved (3: Host not found), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", subrequest: "/_validate_by_apikey", host: "localhost:8070"
+2019/12/07 23:39:19 [error] 1048#9988: *4 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://localhost:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:40:51 [notice] 14956#19676: using the "select" event method
+2019/12/07 23:40:51 [notice] 14956#19676: openresty/1.15.8.2
+2019/12/07 23:40:51 [info] 14956#19676: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:40:51 [notice] 14956#19676: start worker processes
+2019/12/07 23:40:51 [notice] 14956#19676: start worker process 23160
+2019/12/07 23:40:51 [notice] 23160#25236: openresty/1.15.8.2
+2019/12/07 23:40:51 [info] 23160#25236: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:40:51 [notice] 23160#25236: create thread 13388
+2019/12/07 23:40:51 [notice] 23160#25236: create thread 22688
+2019/12/07 23:40:51 [notice] 23160#25236: create thread 16216
+2019/12/07 23:40:54 [error] 23160#13388: *1 localhost could not be resolved (3: Host not found), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", subrequest: "/_validate_by_apikey", host: "localhost:8070"
+2019/12/07 23:40:54 [error] 23160#13388: *1 auth request unexpected status: 502 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://localhost:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:42:48 [notice] 11984#18588: using the "select" event method
+2019/12/07 23:42:48 [notice] 11984#18588: openresty/1.15.8.2
+2019/12/07 23:42:48 [info] 11984#18588: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:42:48 [notice] 11984#18588: start worker processes
+2019/12/07 23:42:48 [notice] 11984#18588: start worker process 19848
+2019/12/07 23:42:48 [notice] 19848#17156: openresty/1.15.8.2
+2019/12/07 23:42:48 [info] 19848#17156: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:42:48 [notice] 19848#17156: create thread 20220
+2019/12/07 23:42:48 [notice] 19848#17156: create thread 20468
+2019/12/07 23:42:48 [notice] 19848#17156: create thread 12504
+2019/12/07 23:43:51 [error] 19848#20220: *1 upstream timed out (10060: FormatMessage() error:(15100)) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.173.129:8080/", host: "localhost:8070"
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://172.17.173.129:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:44:08 [notice] 24644#15664: using the "select" event method
+2019/12/07 23:44:08 [notice] 24644#15664: openresty/1.15.8.2
+2019/12/07 23:44:08 [info] 24644#15664: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:44:08 [notice] 24644#15664: start worker processes
+2019/12/07 23:44:08 [notice] 24644#15664: start worker process 20808
+2019/12/07 23:44:08 [notice] 20808#22640: openresty/1.15.8.2
+2019/12/07 23:44:08 [info] 20808#22640: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:44:08 [notice] 20808#22640: create thread 16088
+2019/12/07 23:44:08 [notice] 20808#22640: create thread 23708
+2019/12/07 23:44:08 [notice] 20808#22640: create thread 23856
+2019/12/07 23:45:11 [error] 20808#16088: *1 upstream timed out (10060: FormatMessage() error:(15100)) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.173.129:8080/", host: "localhost:8070"
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://172.17.173.129:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:46:13 [error] 20808#16088: *1 upstream timed out (10060: FormatMessage() error:(15105)) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.173.129:8080/", host: "localhost:8070"
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://172.17.173.129:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:46:52 [notice] 17276#9376: using the "select" event method
+2019/12/07 23:46:52 [notice] 17276#9376: openresty/1.15.8.2
+2019/12/07 23:46:52 [info] 17276#9376: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:46:52 [notice] 17276#9376: start worker processes
+2019/12/07 23:46:52 [notice] 17276#9376: start worker process 4784
+2019/12/07 23:46:52 [notice] 4784#18124: openresty/1.15.8.2
+2019/12/07 23:46:52 [info] 4784#18124: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:46:52 [notice] 4784#18124: create thread 26004
+2019/12/07 23:46:52 [notice] 4784#18124: create thread 4336
+2019/12/07 23:46:52 [notice] 4784#18124: create thread 2008
+2019/12/07 23:47:39 [info] 4784#26004: *1 client prematurely closed connection, so upstream connection is closed too while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.17.173.129:8080/", host: "localhost:3000"
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://172.17.173.129:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:49:33 [notice] 14804#20364: using the "select" event method
+2019/12/07 23:49:33 [notice] 14804#20364: openresty/1.15.8.2
+2019/12/07 23:49:33 [info] 14804#20364: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:49:33 [notice] 14804#20364: start worker processes
+2019/12/07 23:49:33 [notice] 14804#20364: start worker process 20728
+2019/12/07 23:49:33 [notice] 20728#25548: openresty/1.15.8.2
+2019/12/07 23:49:33 [info] 20728#25548: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:49:33 [notice] 20728#25548: create thread 7000
+2019/12/07 23:49:33 [notice] 20728#25548: create thread 17192
+2019/12/07 23:49:33 [notice] 20728#25548: create thread 20012
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+token=f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d2
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:50:37 [notice] 13924#9348: using the "select" event method
+2019/12/07 23:50:37 [notice] 13924#9348: openresty/1.15.8.2
+2019/12/07 23:50:37 [info] 13924#9348: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:50:37 [notice] 13924#9348: start worker processes
+2019/12/07 23:50:37 [notice] 13924#9348: start worker process 26412
+2019/12/07 23:50:37 [notice] 26412#17932: openresty/1.15.8.2
+2019/12/07 23:50:37 [info] 26412#17932: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:50:37 [notice] 26412#17932: create thread 18480
+2019/12/07 23:50:37 [notice] 26412#17932: create thread 16984
+2019/12/07 23:50:37 [notice] 26412#17932: create thread 21708
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+token=f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-http://127.0.0.1:8081/validate/apikey?apikey=f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:53:17 [notice] 12884#21936: using the "select" event method
+2019/12/07 23:53:17 [notice] 12884#21936: openresty/1.15.8.2
+2019/12/07 23:53:17 [info] 12884#21936: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:53:17 [notice] 12884#21936: start worker processes
+2019/12/07 23:53:17 [notice] 12884#21936: start worker process 9100
+2019/12/07 23:53:17 [notice] 9100#23620: openresty/1.15.8.2
+2019/12/07 23:53:17 [info] 9100#23620: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:53:17 [notice] 9100#23620: create thread 20744
+2019/12/07 23:53:17 [notice] 9100#23620: create thread 15092
+2019/12/07 23:53:17 [notice] 9100#23620: create thread 24060
+2019/12/07 23:53:28 [error] 9100#20744: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:24):5: '=' expected near 'http', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2019/12/07 23:53:28 [warn] 9100#20744: *1 using uninitialized "target" variable while logging request, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28-
+2019/12/07 23:54:54 [notice] 24012#24828: using the "select" event method
+2019/12/07 23:54:54 [notice] 24012#24828: openresty/1.15.8.2
+2019/12/07 23:54:54 [info] 24012#24828: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:54:54 [notice] 24012#24828: start worker processes
+2019/12/07 23:54:54 [notice] 24012#24828: start worker process 16740
+2019/12/07 23:54:55 [notice] 16740#22472: openresty/1.15.8.2
+2019/12/07 23:54:55 [info] 16740#22472: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:54:55 [notice] 16740#22472: create thread 25348
+2019/12/07 23:54:55 [notice] 16740#22472: create thread 9204
+2019/12/07 23:54:55 [notice] 16740#22472: create thread 15232
+2019/12/07 23:54:57 [error] 16740#25348: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:24):5: '=' expected near 'http', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:55:01 [error] 16740#25348: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:24):5: '=' expected near 'http', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:57:48 [notice] 26480#1640: using the "select" event method
+2019/12/07 23:57:48 [notice] 26480#1640: openresty/1.15.8.2
+2019/12/07 23:57:48 [info] 26480#1640: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:57:48 [notice] 26480#1640: start worker processes
+2019/12/07 23:57:48 [notice] 26480#1640: start worker process 26616
+2019/12/07 23:57:48 [notice] 26616#14552: openresty/1.15.8.2
+2019/12/07 23:57:48 [info] 26616#14552: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:57:48 [notice] 26616#14552: create thread 10840
+2019/12/07 23:57:48 [notice] 26616#14552: create thread 14264
+2019/12/07 23:57:48 [notice] 26616#14552: create thread 17420
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:59:37 [notice] 13248#12980: using the "select" event method
+2019/12/07 23:59:37 [notice] 13248#12980: openresty/1.15.8.2
+2019/12/07 23:59:37 [info] 13248#12980: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:59:37 [notice] 13248#12980: start worker processes
+2019/12/07 23:59:37 [notice] 13248#12980: start worker process 22436
+2019/12/07 23:59:37 [notice] 22436#15644: openresty/1.15.8.2
+2019/12/07 23:59:37 [info] 22436#15644: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/07 23:59:37 [notice] 22436#15644: create thread 25960
+2019/12/07 23:59:37 [notice] 22436#15644: create thread 8572
+2019/12/07 23:59:37 [notice] 22436#15644: create thread 1952
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/07 23:59:44 [error] 22436#25960: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/07 23:59:58 [error] 22436#25960: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/07 23:59:58 [error] 22436#25960: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/07 23:59:59 [error] 22436#25960: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:00:02 [error] 22436#25960: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:00:03 [error] 22436#25960: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:00:07 [error] 22436#25960: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:01:10 [notice] 15392#14356: using the "select" event method
+2019/12/08 00:01:10 [notice] 15392#14356: openresty/1.15.8.2
+2019/12/08 00:01:10 [info] 15392#14356: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:01:10 [notice] 15392#14356: start worker processes
+2019/12/08 00:01:10 [notice] 15392#14356: start worker process 3288
+2019/12/08 00:01:10 [notice] 3288#22520: openresty/1.15.8.2
+2019/12/08 00:01:10 [info] 3288#22520: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:01:10 [notice] 3288#22520: create thread 3104
+2019/12/08 00:01:10 [notice] 3288#22520: create thread 15612
+2019/12/08 00:01:10 [notice] 3288#22520: create thread 15120
+2019/12/08 00:01:13 [error] 3288#3104: *1 failed to load inlined Lua code: access_by_lua(nginx.conf:23):5: '<name>' expected near 'return', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:01:47 [error] 3288#3104: *2 failed to load inlined Lua code: access_by_lua(nginx.conf:23):5: '<name>' expected near 'return', client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/08 00:02:32 [notice] 18196#19612: using the "select" event method
+2019/12/08 00:02:32 [notice] 18196#19612: openresty/1.15.8.2
+2019/12/08 00:02:32 [info] 18196#19612: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:02:32 [notice] 18196#19612: start worker processes
+2019/12/08 00:02:32 [notice] 18196#19612: start worker process 11924
+2019/12/08 00:02:32 [notice] 11924#13772: openresty/1.15.8.2
+2019/12/08 00:02:32 [info] 11924#13772: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:02:32 [notice] 11924#13772: create thread 24432
+2019/12/08 00:02:32 [notice] 11924#13772: create thread 13788
+2019/12/08 00:02:32 [notice] 11924#13772: create thread 4700
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/08 00:02:39 [error] 11924#24432: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/08 00:08:50 [error] 11924#24432: *5 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:08:51 [error] 11924#24432: *5 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:12:15 [notice] 25884#26236: using the "select" event method
+2019/12/08 00:12:15 [notice] 25884#26236: openresty/1.15.8.2
+2019/12/08 00:12:15 [info] 25884#26236: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:12:15 [notice] 25884#26236: start worker processes
+2019/12/08 00:12:15 [notice] 25884#26236: start worker process 16560
+2019/12/08 00:12:15 [notice] 16560#17428: openresty/1.15.8.2
+2019/12/08 00:12:15 [info] 16560#17428: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:12:15 [notice] 16560#17428: create thread 10840
+2019/12/08 00:12:15 [notice] 16560#17428: create thread 14264
+2019/12/08 00:12:15 [notice] 16560#17428: create thread 17420
+2019/12/08 00:12:19 [error] 16560#10840: *1 attempt to set ngx.status after sending out response headers while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+2019/12/08 00:12:19 [error] 16560#10840: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+2019/12/08 00:13:58 [notice] 10612#9156: using the "select" event method
+2019/12/08 00:13:58 [notice] 10612#9156: openresty/1.15.8.2
+2019/12/08 00:13:58 [info] 10612#9156: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:13:58 [notice] 10612#9156: start worker processes
+2019/12/08 00:13:58 [notice] 10612#9156: start worker process 19848
+2019/12/08 00:13:58 [notice] 19848#6452: openresty/1.15.8.2
+2019/12/08 00:13:58 [info] 19848#6452: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:13:58 [notice] 19848#6452: create thread 14116
+2019/12/08 00:13:58 [notice] 19848#6452: create thread 14096
+2019/12/08 00:13:58 [notice] 19848#6452: create thread 9396
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:15:54 [notice] 21592#22588: using the "select" event method
+2019/12/08 00:15:54 [notice] 21592#22588: openresty/1.15.8.2
+2019/12/08 00:15:54 [info] 21592#22588: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:15:54 [notice] 21592#22588: start worker processes
+2019/12/08 00:15:54 [notice] 21592#22588: start worker process 25912
+2019/12/08 00:15:54 [notice] 25912#19576: openresty/1.15.8.2
+2019/12/08 00:15:54 [info] 25912#19576: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:15:54 [notice] 25912#19576: create thread 23132
+2019/12/08 00:15:54 [notice] 25912#19576: create thread 21844
+2019/12/08 00:15:54 [notice] 25912#19576: create thread 19276
+2019/12/08 00:15:57 [error] 25912#23132: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:16:46 [notice] 17572#19032: using the "select" event method
+2019/12/08 00:16:46 [notice] 17572#19032: openresty/1.15.8.2
+2019/12/08 00:16:46 [info] 17572#19032: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:16:46 [notice] 17572#19032: start worker processes
+2019/12/08 00:16:46 [notice] 17572#19032: start worker process 23612
+2019/12/08 00:16:47 [notice] 23612#9060: openresty/1.15.8.2
+2019/12/08 00:16:47 [info] 23612#9060: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:16:47 [notice] 23612#9060: create thread 19764
+2019/12/08 00:16:47 [notice] 23612#9060: create thread 8840
+2019/12/08 00:16:47 [notice] 23612#9060: create thread 11172
+2019/12/08 00:16:49 [error] 23612#19764: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:18:13 [notice] 20808#22880: using the "select" event method
+2019/12/08 00:18:13 [notice] 20808#22880: openresty/1.15.8.2
+2019/12/08 00:18:13 [info] 20808#22880: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:18:13 [notice] 20808#22880: start worker processes
+2019/12/08 00:18:13 [notice] 20808#22880: start worker process 21524
+2019/12/08 00:18:13 [notice] 21524#13860: openresty/1.15.8.2
+2019/12/08 00:18:13 [info] 21524#13860: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:18:13 [notice] 21524#13860: create thread 12464
+2019/12/08 00:18:13 [notice] 21524#13860: create thread 11096
+2019/12/08 00:18:13 [notice] 21524#13860: create thread 2180
+2019/12/08 00:18:16 [error] 21524#12464: *1 attempt to set status 403 via ngx.exit after sending out the response status 200 while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8070"
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:21:10 [notice] 19204#20984: using the "select" event method
+2019/12/08 00:21:10 [notice] 19204#20984: openresty/1.15.8.2
+2019/12/08 00:21:10 [info] 19204#20984: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:21:10 [notice] 19204#20984: start worker processes
+2019/12/08 00:21:10 [notice] 19204#20984: start worker process 21480
+2019/12/08 00:21:10 [notice] 21480#15344: openresty/1.15.8.2
+2019/12/08 00:21:10 [info] 21480#15344: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:21:10 [notice] 21480#15344: create thread 8696
+2019/12/08 00:21:10 [notice] 21480#15344: create thread 22020
+2019/12/08 00:21:10 [notice] 21480#15344: create thread 14532
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:21:58 [notice] 17668#24080: using the "select" event method
+2019/12/08 00:21:58 [notice] 17668#24080: openresty/1.15.8.2
+2019/12/08 00:21:58 [info] 17668#24080: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:21:58 [notice] 17668#24080: start worker processes
+2019/12/08 00:21:58 [notice] 17668#24080: start worker process 6860
+2019/12/08 00:21:58 [notice] 6860#3424: openresty/1.15.8.2
+2019/12/08 00:21:58 [info] 6860#3424: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:21:58 [notice] 6860#3424: create thread 15628
+2019/12/08 00:21:58 [notice] 6860#3424: create thread 24804
+2019/12/08 00:21:58 [notice] 6860#3424: create thread 18236
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+2019/12/08 00:25:06 [notice] 8520#17404: using the "select" event method
+2019/12/08 00:25:06 [notice] 8520#17404: openresty/1.15.8.2
+2019/12/08 00:25:06 [info] 8520#17404: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:25:06 [notice] 8520#17404: start worker processes
+2019/12/08 00:25:06 [notice] 8520#17404: start worker process 14680
+2019/12/08 00:25:06 [notice] 14680#2772: openresty/1.15.8.2
+2019/12/08 00:25:06 [info] 14680#2772: OS: 300000 build:17763, "", suite:100, type:1
+2019/12/08 00:25:06 [notice] 14680#2772: create thread 18604
+2019/12/08 00:25:06 [notice] 14680#2772: create thread 20204
+2019/12/08 00:25:06 [notice] 14680#2772: create thread 22024
+f3e8970809d9c296429ad965d4e00d2-f3e8970809d9c296429ad965d4e00d2
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+--
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28
+f3e8970809d9c296429ad965d4e00d28-f3e8970809d9c296429ad965d4e00d28

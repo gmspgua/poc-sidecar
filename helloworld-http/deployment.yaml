@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: sidecar-proxy
-        image: 130593/nginx-proxy:v3
+        image: 130593/nginx-proxy:v6
         ports:
         - containerPort: 80
       - name: application

@@ -1,0 +1,22 @@
+2019/12/07 21:05:22 [emerg] 6196#24980: unknown directive "local" in ./conf/nginx.conf:18
+2019/12/07 22:01:28 [emerg] 5468#17456: directive "content_by_lua" is not terminated by ";" in ./conf/nginx.conf:16
+2019/12/07 22:02:02 [emerg] 26340#8168: unexpected "/" in ./conf/nginx.conf:17
+2019/12/07 22:11:52 [emerg] 8936#16520: unknown log format "compression" in ./conf/nginx.conf:5
+2019/12/07 22:18:25 [emerg] 1880#12496: unexpected "/" in ./conf/nginx.conf:17
+2019/12/07 22:18:47 [emerg] 11332#5088: directive "content_by_lua" is not terminated by ";" in ./conf/nginx.conf:16
+2019/12/07 22:18:56 [emerg] 24484#17596: directive "content_by_lua" is not terminated by ";" in ./conf/nginx.conf:16
+2019/12/07 22:41:03 [emerg] 10900#20292: unexpected "}" in ./conf/nginx.conf:23
+2019/12/07 22:42:13 [emerg] 21616#20076: unexpected "}" in ./conf/nginx.conf:23
+2019/12/07 22:42:45 [emerg] 20200#20984: unexpected "}" in ./conf/nginx.conf:23
+2019/12/07 22:43:19 [emerg] 21176#20264: unexpected "}" in ./conf/nginx.conf:23
+2019/12/07 22:44:11 [emerg] 15868#7244: invalid URL prefix in ./conf/nginx.conf:22
+2019/12/07 22:53:53 [emerg] 11888#3392: directive "access_by_lua" is not terminated by ";" in ./conf/nginx.conf:16
+2019/12/07 22:54:07 [emerg] 13028#17628: unexpected end of file, expecting ";" or "}" in ./conf/nginx.conf:38
+2019/12/07 22:54:23 [emerg] 16204#16292: unexpected end of file, expecting ";" or "}" in ./conf/nginx.conf:38
+2019/12/07 22:55:33 [emerg] 22332#25496: unexpected end of file, expecting ";" or "}" in ./conf/nginx.conf:38
+2019/12/07 22:57:48 [emerg] 2772#17128: unexpected "}" in ./conf/nginx.conf:44
+2019/12/07 22:58:04 [emerg] 20936#21180: unexpected end of file, expecting "}" in ./conf/nginx.conf:45
+2019/12/07 22:58:22 [emerg] 26356#25644: unexpected end of file, expecting "}" in ./conf/nginx.conf:46
+2019/12/07 22:58:28 [emerg] 10004#14672: unexpected end of file, expecting "}" in ./conf/nginx.conf:46
+2019/12/07 23:52:53 [emerg] 17800#5512: directive "content_by_lua" is not terminated by ";" in ./conf/nginx.conf:16
+2019/12/07 23:54:33 [emerg] 16088#9920: unknown "target" variable
